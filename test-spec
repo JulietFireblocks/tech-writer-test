@@ -71,7 +71,7 @@ paths:
       parameters:
         - name: status
           in: query
-          description: Filter tasks by status.
+          description: This where I put my new description in block scaler.
           required: false
           schema:
             $ref: '#/components/schemas/StatusEnum'
