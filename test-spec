@@ -102,6 +102,6 @@ paths:
   /task:
     post: 
       summary: Add a new technical writer task.
-      description: >-
+      description: > -
       New description for endpoint POST/ task using fomratting to breakup lines like textwrap.
       operationId: addTask
