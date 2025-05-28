@@ -68,9 +68,9 @@ paths:
     get:
       summary: Retrieve all technical writer tasks.
       description: |
-        This endpoint retrieves a list of tasks. 
-        Each task includes ID, title, status and due date. 
-        You can filter tasks by status or component. 
+          This endpoint retrieves a list of tasks. 
+          Each task includes ID, title, status and due date. 
+          You can filter tasks by status or component. 
       operationId: getTasks
       parameters:
         - name: status
