@@ -68,10 +68,11 @@ paths:
     get:
       summary: Retrieve all technical writer tasks.
       operationId: getTasks
+      description: |
+      This where I put my new description in block scaler.
       parameters:
         - name: status
           in: query
-          description: This where I put my new description in block scaler.
           required: false
           schema:
             $ref: '#/components/schemas/StatusEnum'
