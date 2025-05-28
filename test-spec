@@ -17,7 +17,7 @@ components:
       properties:
         task_id:
           type: integer
-          description: The id of the identified task.
+          description: This is a new description.
           example: 17
         title:
           type: string
