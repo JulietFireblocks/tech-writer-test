@@ -103,5 +103,5 @@ paths:
     post: 
       summary: Add a new technical writer task.
       description: >-
-Add a new description for endpoint POST/ task. My lines should break up into multiple lines in the output.
+      New description for endpoint POST/ task using fomratting to breakup lines like textwrap.
       operationId: addTask
