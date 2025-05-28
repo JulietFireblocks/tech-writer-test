@@ -106,8 +106,6 @@ paths:
     post:
       summary: Add a new technical writer task.
       description: >- 
-      Creates a new 
-task using the details provided in the request body. 
-      
+      Creates a new task using the details provided in the request body. 
       Returns the created task object, including its unique ID. 
       operationId: addTask
