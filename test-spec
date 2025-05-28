@@ -68,7 +68,8 @@ paths:
     get:
       summary: Retrieve all technical writer tasks.
       description: |
-      This is where I put my new description in the GET / task endpoint in block scaler.
+      This is where I put my new description
+      in the GET / task endpoint in block scaler.
       operationId: getTasks
       parameters:
         - name: status
