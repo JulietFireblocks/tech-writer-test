@@ -102,5 +102,6 @@ paths:
   /task:
     post: 
       summary: Add a new technical writer task.
-      description: >-This is a new description for endpoint Post. My lines should break up into multiple lines in the endpoint.
+      description: >-
+Add a new description for endpoint POST/ task. My lines should break up into multiple lines in the output.
       operationId: addTask
