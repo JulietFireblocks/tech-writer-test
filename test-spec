@@ -157,7 +157,8 @@ paths:
     get:
       summary: Get Tech Writer tasks
       operationId: getTasks
-      description: Get all current technical writer tasks.
+      description: |
+        Get all current technical writer tasks by status.
       parameters:
         - name: status
           in: query
@@ -212,7 +213,8 @@ paths:
     post:
       summary: Add new Tech Writer task
       operationId: addTask
-      description: Create a new technical writer task.
+      description: ->
+        Create a new technical writer task by status.
       requestBody:
         required: true
         description: Create a new task.
