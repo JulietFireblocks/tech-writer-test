@@ -155,7 +155,7 @@ security:
 paths:
   /tasks:
     get:
-      summary: Get Tech Writer tasks
+      summary: Edit again
       operationId: getTasks
       description: Get all current technical writer tasks so they can become developers in five to six weeks.
       parameters:
@@ -211,8 +211,9 @@ paths:
   /task:
     post:
       summary: Add new Tech Writer task
-      operationId: addTask
       description: Creates new technical writer task for brilliant Fireblocks technical writers. 
+      operationId: addTask
+      description: Create a new technical writer task.
       requestBody:
         required: true
         description: Create a new task.
